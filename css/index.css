@@ -1,0 +1,109 @@
+.content_area{
+    box-sizing: content-box;
+    width: 79.17vw;
+    margin: 0 auto;
+    padding-top: 3.65vw;
+    padding-bottom: 3.65vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.index_wrapper h1{
+    font-family: 'ModernoTwo', sans-serif;
+    font-weight: 100;
+    font-size: 3.65vw;
+    text-align: center;
+    margin: 0;
+}
+.main_info_block_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.65vw;
+    margin-bottom: 3.65vw;
+    align-items: center;
+}
+.main_info_block_content p{
+    width: 36.46vw;
+    font-family: 'SHelvetica_regular', 'sans-serif';
+    font-size: 1.8vw;
+    line-height: 2.34vw;
+}
+.main_info_block_content strong{
+    font-family: 'SHelvetica_bold', 'sans-serif';
+    font-weight: 100;
+}
+.main_light_block h1{
+    color: #442D2D;
+}
+.main_light_block p{
+    color: #442D2D;
+}
+.main_light_block a{
+    color: #F2EBD9;
+    font-size: 1.82vw;
+    font-family: 'SHelvetica_bold', 'sans-serif';
+    background-color: #797D47;
+    padding: 1.04vw 2.34vw;
+    border-radius: 2.34vw;
+    text-decoration: none;
+}
+.main_green_block{
+    background-color: #797D47;
+}
+.main_green_block h1{
+    color: #F2EBD9;
+}
+.main_green_block p{
+    color: #F2EBD9;
+}
+.main_green_block a{
+    color: #442D2D;
+    font-size: 1.82vw;
+    font-family: 'SHelvetica_bold', 'sans-serif';
+    background-color: #F2EBD9;
+    padding: 1.04vw 2.34vw;
+    border-radius: 2.34vw;
+    text-decoration: none;
+}
+.company_name{
+    font-family: 'ModernoTwo', sans-serif !important;
+    font-size: 2.08vw !important;
+    font-weight: 800 !important;
+}
+.reviews_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.65vw;
+    margin-bottom: 3.65vw;
+    width: 100%;
+}
+.review_card{
+    background-color: #F2EBD9;
+    padding: 2.60vw 2.86vw;
+    border-radius: 1.04vw;
+}
+.review_card p{
+    color: #442D2D !important;
+    font-family: 'SHelvetica_regular', 'sans-serif';
+    font-size: 1.56vw;
+    line-height: 3.13vw;
+    width: 20.10vw;
+    margin: 0;
+    margin-top: 1.82vw;
+}
+.review_name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.review_name img{
+    width: 6.77vw;
+    height: 6.77vw;
+    border-radius: 5.21vw;
+}
+.review_name h2{
+    font-family: 'SHelvetica_bold', 'sans-serif';
+    color: #442D2D;
+    font-size: 1.56vw;
+}

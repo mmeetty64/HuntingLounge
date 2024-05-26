@@ -1,0 +1,19 @@
+.slider_main {
+    width: 36.46vw;
+    height: 25.26vw;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2.34vw;
+    background-color: #fff;
+}
+
+.slides_main {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slides_main img {
+    border: none;
+    width: 36.46vw;
+    height: 25.26vw;
+}

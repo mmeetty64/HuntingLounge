@@ -1,0 +1,172 @@
+.bath_wrapper h1{
+    font-family: 'ModernoTwo', sans-serif;
+    font-weight: 100;
+    font-size: 3.65vw;
+    text-align: center;
+    margin: 0;
+}
+.bath_head_name{
+    background-image: url('../images/bath_head.png');
+    height: 36.82vw;
+    display: flex;
+    align-items: center;
+    padding: 0 10.42vw;
+    background-size: cover;
+}
+.bath_head_name h1{
+    padding: 2.34vw 3.02vw;
+    background-color: #F2EBD9;
+    opacity: 0.9;
+    border-radius: 2.34vw;
+    color: #442D2D;
+}
+.bath_text p{
+    width: 65.83vw;
+    font-family: 'SHelvetica_regular', 'sans-serif';
+    font-size: 1.8vw;
+    font-weight: 100;
+    line-height: 2.34vw;
+    color: #442D2D;
+}
+.bath_text strong{
+    font-family: 'SHelvetica_bold', 'sans-serif';
+}
+.bath_title{
+    background-color: #797D47;
+}
+.bath_title h1{
+    color: #F2EBD9;
+}
+.bath_description h1{
+    color: #442D2D;
+}
+.bath_description_content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 3.65vw;
+    margin-bottom: 3.65vw;
+}
+.bath_description_title {
+    display: flex;
+    align-items: center;
+}
+.bath_description_title img {
+    width: 4.17vw;
+    height: 4.17vw;
+    margin: 0 2.60vw;
+}
+.bath_description_title p{
+    width: 27.97vw;
+    font-family: 'SHelvetica_regular', 'sans-serif';
+    font-size: 1.8vw;
+    font-weight: 100;
+    line-height: 2.08vw;
+    color: #442D2D;
+    margin: 0;
+}
+.bath_description_content hr{
+    height: 16.56vw;
+    width: 0.21vw;
+    border: 0;
+    background-color: #442D2D;
+    margin: 0;
+    margin: 0 2.60vw;
+}
+.bath_description_characteristics{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bath_description_character{
+    display: flex;
+}
+.bath_description_character img{
+    width: 2.60vw;
+    height: 2.60vw;
+}
+.bath_description_character p{
+    max-width: 28.39vw;
+    font-family: 'SHelvetica_regular', 'sans-serif';
+    font-size: 1.8vw;
+    font-weight: 100;
+    line-height: 2.08vw;
+    color: #442D2D;
+    margin: 0 2.60vw;
+}
+.bath_description_price{
+    font-size: 1.04vw !important;
+    line-height: 1.30vw !important;
+    margin-top: 0.31vw;
+}
+.order_phone{
+    color: #F2EBD9;
+    font-size: 2.60vw;
+    font-family: 'ModernoTwo', 'sans-serif';
+    background-color: #797D47;
+    border-radius: 2.34vw;
+    text-decoration: none;
+    width: 32.81vw;
+    height: 5.73vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.65vw;
+}
+.order_phone img{
+    margin-right: 1.09vw;
+    width: 2.60vw;
+    height: 2.60vw;
+}
+.bath_our_offers{
+    background-color: #797D47;
+}
+.bath_our_offers h1{
+    color: #F2EBD9;
+}
+.bath_offers_content{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bath_offers_card{
+    width: 27.4vw;
+    padding: 2.60vw 2.60vw;
+    background-color: #F2EBD9;
+    border-radius: 2.34vw;
+    margin: 3.65vw 2.03vw;
+}
+.bath_offers_card h2{
+    font-family: 'SHelvetica_bold', 'sans-serif';
+    font-size: 2.08vw;
+    font-weight: 100;
+    color: #442D2D;
+    margin: 0;
+}
+.bath_offers_card p{
+    font-family: 'SHelvetica_regular', 'sans-serif';
+    font-size: 1.56vw;
+    font-weight: 100;
+    line-height: 1.98vw;
+    padding-top: 2.60vw;
+    margin: 0;
+    color: #442D2D;
+}
+.bath_offers_card a{
+    color: #F2EBD9;
+    width: 27.29vw;
+    height: 4.17vw;
+    font-size: 1.78vw;
+    font-family: 'SHelvetica_bold', 'sans-serif';
+    background-color: #797D47;
+    border-radius: 2.34vw;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.60vw;
+}
+.bath_offers_card strong{
+    font-family: 'SHelvetica_bold', 'sans-serif';
+}

@@ -1,0 +1,108 @@
+footer{
+    background-color: #232323;
+}
+.footer_content_area{
+    box-sizing: content-box;
+    width: 79.17vw;
+    margin: 0 auto;
+    padding-top: 3.65vw;
+    padding-bottom: 1.82vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer_logo{
+    display: flex;
+    width: 21.61vw;
+    align-items: center;
+    filter: drop-shadow(0 0.21vw 0.21vw rgba(0,0,0,0.25));
+}
+.footer_logo h1{
+    color: #F2EBD9;
+    text-align: center;
+    font-family: 'ModernoTwo', sans-serif;
+    font-weight: 100;
+    font-size: 2.60vw;
+    margin: 0;
+    line-height: 2.40vw;
+}
+.footer_logo hr{
+    width: 0.21vw;
+    background-color: #F2EBD9;
+    height: 5.21vw;
+    border: 0;
+    border-radius: 1.56vw;
+}
+.footer_logo img{
+    height: 5.21vw;
+    width: 5.21vw;
+}
+.footer_info{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_nav a{
+    font-family: 'ModernoTwo', sans-serif;
+    font-weight: 100;
+    font-size: 1.56vw;
+    color: #F2EBD9;
+    text-decoration: none;
+}
+.footer_social_media{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_social_media a{
+    font-family: 'SHelvetica', sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+    font-size: 1.56vw;
+    color: #F2EBD9;
+    text-decoration: none;
+}
+.footer_social_media img{
+     width: 1.5vw;
+}
+.footer_social_media a{
+    margin: 0;
+    margin-left: 1vw;
+    height: 2vw;
+}
+.footer_sm_icons{
+    display: flex;
+}
+.footer_sm_icons img{
+    width: 2vw;
+}
+.produser_tag{
+    font-family: 'SHelvetica-regular', sans-serif;
+    font-size: 1.30vw;
+    color: #646464;
+    text-decoration: none;
+    margin-top: 3.65vw;
+}
+.produser_tag strong{
+    font-family: 'SHelvetica-bold', sans-serif;
+}
+.footer_phone{
+    margin-left: 0 !important;
+    display: flex;
+    align-items: center;
+}
+.footer_phone img{
+    margin-right: 1vw;
+}
+.footer_tel{
+    display: flex;
+}

@@ -1,0 +1,33 @@
+body{
+    background-color: #F2EBD9;
+}
+.calling_block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3.65vw;
+    padding-bottom: 3.65vw;
+}
+.calling_block h1{
+    font-family: 'ModernoTwo', sans-serif;
+    font-weight: 100;
+    font-size: 3.65vw;
+    text-align: center;
+    margin: 0;
+    color: #442D2D;
+}
+.calling_block a{
+    color: #F2EBD9;
+    font-size: 2.60vw;
+    font-family: 'ModernoTwo', 'sans-serif';
+    background-color: #797D47;
+    border-radius: 2.34vw;
+    text-decoration: none;
+    width: 32.81vw;
+    height: 5.73vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.65vw;
+}

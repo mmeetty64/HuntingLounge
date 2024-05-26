@@ -1,0 +1,69 @@
+.contacts_wrapper h1{
+    font-family: 'ModernoTwo', sans-serif;
+    font-weight: 100;
+    font-size: 3.65vw;
+    text-align: center;
+    margin: 0;
+}
+.contacts_text h1{
+    color: #442D2D;
+}
+.contacts_text p{
+    width: 65.83vw;
+    font-family: 'SHelvetica_regular', 'sans-serif';
+    font-size: 1.82vw;
+    line-height: 2.34vw;
+    color: #442D2D;
+    margin: 0;
+    margin-top: 3.65vw;
+    margin-bottom: 3.65vw;
+}
+.contacts_text strong{
+    font-family: 'SHelvetica_bold', 'sans-serif';
+    font-weight: 100;
+}
+.contacts_phone{
+    display: flex;
+    align-items: center;
+}
+.contacts_phone a{
+    color: #442D2D;
+    text-align: center;
+    font-family: 'SHelvetica_regular', 'sans-serif';
+    font-weight: 100;
+    font-size: 2.60vw;
+    margin: 0;
+    text-decoration: none;
+}
+.contacts_phone hr{
+    width: 0.21vw;
+    background-color: #442D2D;
+    height: 4.69vw;
+    border: 0;
+    border-radius: 1.56vw;
+    margin-left: 1.56vw;
+    margin-right: 1.56vw;
+}
+.contacts_map_and_social_media{
+    background-color: #797D47;
+    margin-bottom: 3.65vw;
+}
+.contacts_map_and_social_media{
+    color: #F2EBD9;
+}
+.contacts_map{
+    width: 65.83vw;
+    height: 37.03vw;
+    margin-top: 3.65vw;
+    margin-bottom: 3.65vw;
+}
+.contacts_social_media_icons{
+    display: flex;
+}
+.contacts_social_media_icons img{
+    width: 4.17vw;
+}
+.contacts_social_media_icons a{
+    margin-left: 0.78vw;
+    margin-right: 0.78vw;
+}

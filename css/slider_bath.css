@@ -1,0 +1,108 @@
+.slider-container {
+    position: relative;
+    width: 52.40vw;
+    height: 26.77vw;
+    margin-top: 3.65vw; 
+  }
+  .slides {
+    display: flex;
+    overflow: hidden;
+    border-radius: 2.34vw;
+  }
+  .slides img {
+    width: 52.40vw;
+    height: 26.77vw;
+    transition: transform 0.5s ease;
+  }
+  .navigation {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  .navigation div {
+    width: 3.13vw; 
+    height: 3.13vw; 
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #F2EBD9;
+    opacity: 0.8;
+    margin-right: 1.30vw;
+    margin-left: 1.30vw;
+  }
+  .navigation .prev::before,
+  .navigation .next::before {
+    content: '';
+    position: absolute;
+    width: 0.52vw; 
+    height: 2.6vw; 
+    background-color: #797D47;
+  }
+  .navigation .prev::before {
+    transform: rotate(135deg);
+    top: 33%;
+    left: 45%;
+    transform: translate(-50%, -50%) rotate(135deg);
+    width: 1.56vw; 
+    height: 0.10vw; 
+  }
+  .navigation .prev::after {
+    content: '';
+    position: absolute;
+    width: 1.56vw; 
+    height: 0.10vw; 
+    background-color: #797D47;
+    transform: translate(-50%, -50%) rotate(-135deg);
+    top: 67%;
+    left: 45%;
+  }
+  .navigation .next::before {
+    transform: translate(-50%, -50%) rotate(-45deg);
+    top: 67%;
+    left: 55%;
+    width: 1.56vw; 
+    height: 0.10vw; 
+  }
+  .navigation .next::after {
+    content: '';
+    position: absolute;
+    width: 1.56vw; 
+    height: 0.10vw; 
+    background-color: #797D47;
+    transform: translate(-50%, -50%) rotate(45deg);
+    top: 33%;
+    left: 55%;
+  }
+  .dots {
+    position: absolute;
+    width: 100%;
+    bottom: 0.78vw; 
+    display: flex;
+    justify-content: center;
+  }
+  .dot {
+    height: 1.04vw; 
+    width: 1.04vw;
+    margin: 0 0.26vw; 
+    background-color: #F2EBD9;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    position: relative;
+  }
+  .dot.active {
+    background-color: #797D47;
+    border: 0.25vw solid #F2EBD9;
+    height: 0.623vw;
+    width: 0.623vw;
+  }
+  .dot.active::before {
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
