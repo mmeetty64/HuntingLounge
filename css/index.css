@@ -80,14 +80,15 @@
 }
 .review_card{
     background-color: #F2EBD9;
-    padding: 2.60vw 2.86vw;
+    padding: 2.60vw 2.2vw;
     border-radius: 1.04vw;
+    width: 21.4vw;
 }
 .review_card p{
     color: #442D2D !important;
     font-family: 'SHelvetica_regular', 'sans-serif';
-    font-size: 1.56vw;
-    line-height: 3.13vw;
+    font-size: 1.40vw;
+    line-height: 3vw;
     width: 20.10vw;
     margin: 0;
     margin-top: 1.82vw;
@@ -101,6 +102,7 @@
     width: 6.77vw;
     height: 6.77vw;
     border-radius: 5.21vw;
+    margin-right: 1vw;
 }
 .review_name h2{
     font-family: 'SHelvetica_bold', 'sans-serif';
