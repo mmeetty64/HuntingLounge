@@ -4,7 +4,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 2.34vw;
-    background-color: #fff;
+    background-color: #fff;  
 }
 
 .slides_main {
@@ -22,6 +22,7 @@
     .slider_main{
         width: 90%;
         height: 56vw;
+        margin: 4vw 0;
     }
     .slider_main img{
         width: 100%;

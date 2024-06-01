@@ -113,21 +113,21 @@
 @media only screen and (max-width: 600px) {
     .content_area{
         width: 90%;
+        padding: 4vw 0;
     }
     .index_wrapper h1{
         font-size: 9vw;
-        margin-top: 5vw;
-        margin-bottom: 5vw;
+        margin: 4vw 0;
     }
     .main_info_block_content p{
         font-size: 5vw;
         line-height: 7vw;
         width: 90%;
-        margin-top: 6vw;
-        margin-bottom: 6vw;
+        margin: 4vw 0;
     }
     .main_info_block_content {
         flex-direction: column;
+        margin: 0;
     }
     .company_name{
         font-size: 5.5vw !important;
@@ -136,15 +136,14 @@
         font-size: 5vw;
         line-height: 7vw;
         padding: 2vw 4vw;
+        margin: 4vw 0;
     }
 
     .main_green_block a {
         font-size: 5vw;
         line-height: 7vw;
         padding: 2vw 4vw;
-    }
-    .additional_services_content{
-        margin: 0 !important;
+        margin: 4vw 0;
     }
     .reviews_content{
         flex-direction: column;

@@ -38,4 +38,13 @@ body{
         line-height: 7vw;
         padding: 2vw 4vw;
     }
+    .calling_block{
+        padding: 4vw 0;
+    }
+    .calling_block h1{
+        margin: 4vw 0;
+    }
+    .calling_block a{
+        margin: 4vw 0;
+    }
 }
