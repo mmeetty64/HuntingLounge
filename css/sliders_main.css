@@ -17,3 +17,14 @@
     width: 36.46vw;
     height: 25.26vw;
 }
+
+@media only screen and (max-width: 600px) {
+    .slider_main{
+        width: 90%;
+        height: 56vw;
+    }
+    .slider_main img{
+        width: 100%;
+        height: 100%;
+    }
+}

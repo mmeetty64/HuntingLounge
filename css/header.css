@@ -74,3 +74,119 @@
 header{
     background-color: #797D47;
 }
+.menu{
+    display: none;
+}
+.menu-icon{
+    display: none;
+}
+.burger_checker{
+    display: none;
+}
+@media (max-width: 768px) {
+    .index_header_content{
+        width: 90%;
+    }
+    .header_logo{
+        width: 65%;
+        margin-bottom: 5vw;
+    }
+    .header_logo h1{
+        font-size: 8vw;
+        line-height: 8vw;
+    }
+    .header_logo hr{
+        height: 15vw;
+        width: 0.5vw;
+    }
+    .header_logo img{
+        width: 12vw;
+        height: 12vw;
+    }
+    .index_header{
+        background-color: #797D47 !important;
+        background-image: none;
+        height: 23vw;
+    }
+    .header_nav{
+        display: none;
+    }
+
+    .adaptive_header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header  {
+        display: none;
+    }
+    /* Скрытие меню */
+    .menu {
+        display: none;
+
+    }
+    .burger_checker{
+        order: 0;
+        display: none;
+    }
+    /* Стили для бургера */
+    .menu-icon {
+        display: block;
+        cursor: pointer; 
+        font-size: 15vw;
+        margin-top: 2vw;
+        color: #F2EBD9;
+        margin-right: 3vw;
+    }
+    .bar1, .bar2, .bar3 {
+        width: 12vw;
+        height: 1.8vw;
+        border-radius: 1vw;
+        background-color: #F2EBD9;
+        margin: 2vw 0;
+        transition: 0.4s;
+    }
+    .burger_checker:checked ~ .menu {
+        display: flex;
+        width: 100%;
+        background-color: #797D47;
+        height: 85vw;
+        position: absolute;
+        top: 22vw;
+        left: 0;
+        z-index: 4;
+        flex-direction: column;
+        padding-top: 4vw;   
+    }    
+    .burger_checker:checked ~ * .bar1{
+        transform: rotate(-45deg) translate(-2.7vw, 2.5vw);
+    }
+    .burger_checker:checked ~ * .bar2{
+        opacity: 0;
+    }
+    .burger_checker:checked ~ * .bar3{
+        transform: rotate(45deg) translate(-2.7vw, -2.5vw);
+    }
+
+    .menu{
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu a{
+        font-size: 8vw;
+        font-family: 'ModernoTwo', 'sans-serif';
+        color: #F2EBD9;
+        border-radius: 2.34vw;
+        text-decoration: none;
+        margin: 3vw 0;
+    }
+    .header_phone{
+        font-family: 'SHelvetica_regular', 'sans-serif' !important;
+        margin: 0 !important;
+        margin-top: 8vw !important;
+    }
+    .header_phone img{
+        margin-right: 2vw;
+    }
+    
+}
+

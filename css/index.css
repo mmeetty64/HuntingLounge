@@ -109,3 +109,64 @@
     color: #442D2D;
     font-size: 1.56vw;
 }
+
+@media only screen and (max-width: 600px) {
+    .content_area{
+        width: 90%;
+    }
+    .index_wrapper h1{
+        font-size: 8vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .main_info_block_content p{
+        font-size: 5vw;
+        line-height: 7vw;
+        width: 90%;
+        margin-top: 6vw;
+        margin-bottom: 6vw;
+    }
+    .main_info_block_content {
+        flex-direction: column;
+    }
+    .company_name{
+        font-size: 5.5vw !important;
+    }
+    .main_light_block a {
+        font-size: 5vw;
+        line-height: 7vw;
+        padding: 2vw 4vw;
+    }
+
+    .main_green_block a {
+        font-size: 5vw;
+        line-height: 7vw;
+        padding: 2vw 4vw;
+    }
+    .additional_services_content{
+        margin: 0 !important;
+    }
+    .reviews_content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .review_card{
+        width: 80%;
+        margin-top: 5vw;
+        padding: 6vw 5vw;
+        border-radius: 4vw;
+    }
+    .review_card p{
+        font-size: 5vw;
+        line-height: 7vw;
+        width: 100%;
+    }
+    .review_name h2{
+        font-size: 6vw;
+    }
+    .review_name img{
+        width: 15vw;
+        height: 15vw;
+        border-radius: 10vw;
+    }
+}
