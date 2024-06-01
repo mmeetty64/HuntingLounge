@@ -67,3 +67,44 @@
     margin-left: 0.78vw;
     margin-right: 0.78vw;
 }
+@media only screen and (max-width: 600px) {
+    .contacts_wrapper h1{
+        font-size: 9vw;
+        margin: 4vw 0;
+    }
+    .contacts_text p{
+        font-size: 5vw;
+        line-height: 7vw;
+        width: 90%;
+        margin: 4vw 0;
+    }
+    .contacts_phone{
+        flex-direction: column;
+        width: 90%;
+        margin: 4vw 0;
+    }
+    .contacts_phone a{
+        font-size: 7vw;
+        line-height: 7vw;   
+    }
+
+    .contacts_phone hr{
+        height: 0.5vw;
+        width: 80%;
+        margin: 4vw 0;
+    }
+    .contacts_map {
+        width: 90%;
+        height: 70vw;
+        margin: 4vw 0;
+    }
+    .contacts_social_media_icons{
+        margin: 4vw 0;
+    }
+    .contacts_social_media_icons img{
+        width: 7vw;
+    }
+    .contacts_social_media_icons a{
+        margin: 0 3vw;
+    }
+}

@@ -83,9 +83,17 @@ header{
 .burger_checker{
     display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .index_header_content{
         width: 90%;
+    }
+    header{
+        height: 25vw;
+    }
+    .header{
+        width: 90%;
+        padding-top: 2.60vw;
+        padding-bottom: 0;
     }
     .header_logo{
         width: 65%;
@@ -115,9 +123,6 @@ header{
     .adaptive_header{
         display: flex;
         justify-content: space-between;
-    }
-    .header  {
-        display: none;
     }
     /* Скрытие меню */
     .menu {
