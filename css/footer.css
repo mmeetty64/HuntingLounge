@@ -142,6 +142,8 @@ footer{
     }
     .footer_social_media a{
         font-size: 5vw;
+        font-family: 'SHelvetica-regular', sans-serif;
+        font-style: oblique;
     }
     .footer_social_media img{
         width: 5vw;
