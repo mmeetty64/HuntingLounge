@@ -31,6 +31,12 @@ body{
     align-items: center;
     margin-top: 3.65vw;
 }
+.adaptive_phone{
+    display: none;
+}
+.desktop_phone{
+    font-family: 'SHelvetica_bold', 'sans-serif' !important;
+}
 
 @media only screen and (max-width: 600px) {
     .calling_block a {
@@ -46,5 +52,11 @@ body{
     }
     .calling_block a{
         margin: 4vw 0;
+    }
+    .desktop_phone{
+        display: none;
+    }
+    .adaptive_phone{
+        display: block;
     }
 }
