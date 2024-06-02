@@ -245,6 +245,7 @@
         margin-top: 4vw;
         width: 70%;
         height: 8vw;
+        align-items: center;
     }
     .order_phone img{
         width: 5vw;
