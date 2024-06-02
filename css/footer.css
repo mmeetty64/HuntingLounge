@@ -42,6 +42,9 @@ footer{
     height: 5.21vw;
     width: 5.21vw;
 }
+.footer_logo_link{
+    text-decoration: none;
+}
 .footer_info{
     width: 35%;
     display: flex;
@@ -116,7 +119,7 @@ footer{
         align-items: center;
     }
     .footer_logo{
-        width: 70%;
+        width: 60vw;
         margin-bottom: 8vw;
     }
     .footer_logo h1{
