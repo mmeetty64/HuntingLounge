@@ -97,10 +97,12 @@
     .service_wrapper h1{
         font-size: 9vw;
         margin: 4vw 0;
+        width: 80%;
     }
     .service_head_name{
         padding: 0;
         height: 60vw;
+        justify-content: center;
     }
     .service_text p{
         font-size: 5vw;
@@ -126,8 +128,14 @@
     .service_card{
         width: 90%;
         margin: 4vw 0;
-        height: 145vw;
+        height: 155vw;
         padding: 0 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service_card strong{
+        margin-left: 4vw;
     }
     .service_content h1 {
         height: 21vw;
@@ -136,6 +144,6 @@
         margin-top: 4vw;
     }
     .service_card_clarification{
-        margin-top: 10vw;
+        margin-top: 15vw;
     }
 }

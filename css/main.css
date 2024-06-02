@@ -40,9 +40,10 @@ body{
 
 @media only screen and (max-width: 600px) {
     .calling_block a {
-        font-size: 5vw;
+        font-size: 7vw;
         line-height: 7vw;
-        padding: 2vw 4vw;
+        padding: 4vw 9vw;
+        border-radius: 3vw;
     }
     .calling_block{
         padding: 4vw 0;

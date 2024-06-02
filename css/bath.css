@@ -170,3 +170,114 @@
 .bath_offers_card strong{
     font-family: 'SHelvetica_bold', 'sans-serif';
 }
+@media only screen and (max-width: 600px) {
+    .bath_wrapper h1{
+        font-size: 9vw;
+        margin: 4vw 0;
+    }
+    .bath_head_name{
+        padding: 0;
+        height: 60vw;
+        display: flex;
+        justify-content: center;
+    }
+    .bath_text p{
+        font-size: 5vw;
+        line-height: 7vw;
+        width: 90%;
+        margin: 4vw 0;
+    }
+    .bath_description_content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bath_description_title{
+        justify-content: center;
+    }
+    .bath_description_title p{
+        font-size: 5vw;
+        line-height: 7vw;
+        width: 90%;
+        margin: 4vw 0;
+    }
+    .bath_description_title img{
+        width: 8vw;
+        height: 8vw;
+        margin: 0 4vw;
+    }
+    .bath_description_content hr{
+        height: 0.5vw;
+        width: 80%;
+        margin: 4vw 0;
+    }
+    .bath_description_characteristics{
+        width: 90%;
+    }
+    .bath_description_character{
+        margin: 4vw 0;
+        width: 90%;
+        align-items: center;
+    }
+    .bath_description_character p{
+        font-size: 5vw;
+        line-height: 7vw;
+        max-width: 90%;
+    }
+    .bath_description_character img{
+        width: 8vw;
+        height: 8vw;
+        margin: 0 4vw;
+    }
+    .bath_description_price{
+        font-size: 2.5vw !important;
+        line-height: 4vw !important;
+    }
+    .order_phone{
+        font-size: 7vw;
+        line-height: 7vw;
+        padding: 3.5vw 0;
+        border-radius: 3vw;
+        justify-content: center;
+        margin-bottom: 4vw;
+        margin-top: 4vw;
+        width: 70%;
+    }
+    .order_phone img{
+        width: 5vw;
+        height: 5vw;
+        margin: 0 4vw;
+    }
+    .bath_offers_content{
+        flex-direction: column;
+        
+    }
+    .bath_offers_cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bath_offers_card{
+        width: 85%;
+        margin: 4vw 0;
+        padding: 4vw 5vw;
+        border-radius: 3vw;
+    }
+    .bath_offers_card h2{
+        font-size: 7vw;
+        line-height: 7vw;
+        margin: 4vw 0;
+        text-align: center;
+    }
+    .bath_offers_card p{
+        font-size: 5vw;
+        line-height: 7vw;
+        padding: 4vw 0;
+    }
+    .bath_offers_card a{
+        font-size: 5vw;
+        line-height: 7vw;
+        padding: 3vw 4vw;
+        width: 90%;
+        margin: 4vw 0;
+    }
+}
