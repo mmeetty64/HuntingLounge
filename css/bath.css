@@ -181,6 +181,9 @@
         display: flex;
         justify-content: center;
     }
+    .bath_head_name h1{
+        padding: 4vw 8vw;
+    }
     .bath_text p{
         font-size: 5vw;
         line-height: 7vw;
@@ -241,6 +244,7 @@
         margin-bottom: 4vw;
         margin-top: 4vw;
         width: 70%;
+        height: 8vw;
     }
     .order_phone img{
         width: 5vw;
